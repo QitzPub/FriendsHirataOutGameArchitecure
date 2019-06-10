@@ -1,5 +1,7 @@
-﻿using UnityEngine;
-
-public class BaseFactory : MonoBehaviour
+﻿
+namespace Qitz.ArchitectureCore
 {
+    public abstract class BaseFactory
+    {
+    }
 }

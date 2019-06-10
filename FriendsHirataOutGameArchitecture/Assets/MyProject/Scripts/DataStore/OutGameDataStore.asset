@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0359293fe9e804915aef8062f102703d, type: 3}
+  m_Name: OutGameDataStore
+  m_EditorClassIdentifier: 
+  stubEnglishCSV: {fileID: 4900000, guid: b836ebcd257a1498da4f0820a00f7c94, type: 3}
+  stubEnglishPhraseCSV: {fileID: 4900000, guid: dd847d011cb9b4b5e86fb169129bcd71,
+    type: 3}
+  stubJapaneseCSV: {fileID: 4900000, guid: 7fd2c62a8ec62418f9f99293389005dc, type: 3}
+  stubArithmeticCSV: {fileID: 4900000, guid: 8f961a6aeb90644ac95535181d8df64f, type: 3}
+  stubScienceCSV: {fileID: 4900000, guid: 631719903f83e4e4998b9e370aa1efde, type: 3}
+  stubSocietyCSV: {fileID: 4900000, guid: dc71343e6d5864d03a146d0378afefa8, type: 3}
+  stubSpriteList:
+  - sprite: {fileID: 21300000, guid: 7df25207ff0a343688020a8bb244be95, type: 3}
+    id: 1
+  - sprite: {fileID: 21300000, guid: 1d25e5669b7784385af9f63fd2411983, type: 3}
+    id: 2
+  audioPlayData: {fileID: 4598858398204642553, guid: 1de21e9ca68c447cb943a2238498f73b,
+    type: 3}
+  sceneList:
+  - unityScene:
+      m_SceneName: Top
+    displaySceneName: "\u9AD8\u6821\u5165\u8A66      \u30BF\u30FC\u30B2\u30C3\u30C8"
+    enableMenu: 1
+    isHomeScene: 1
+    isQuizScene: 0
+  - unityScene:
+      m_SceneName: Settings
+    displaySceneName: "\u8A2D\u5B9A"
+    enableMenu: 1
+    isHomeScene: 0
+    isQuizScene: 0
+  - unityScene:
+      m_SceneName: SetSelect
+    displaySceneName: "\u30BB\u30C3\u30C8\u9078\u629E"
+    enableMenu: 1
+    isHomeScene: 0
+    isQuizScene: 0
+  - unityScene:
+      m_SceneName: FinalResult
+    displaySceneName: "\u554F\u984C\u7D50\u679C"
+    enableMenu: 0
+    isHomeScene: 0
+    isQuizScene: 0
+  - unityScene:
+      m_SceneName: FinalResult
+    displaySceneName: "\u7D50\u679C"
+    enableMenu: 0
+    isHomeScene: 0
+    isQuizScene: 0
+  - unityScene:
+      m_SceneName: Quiz
+    displaySceneName: "\u30AF\u30A4\u30BA"
+    enableMenu: 0
+    isHomeScene: 0
+    isQuizScene: 1
+  - unityScene:
+      m_SceneName: ListeningLevelSelect
+    displaySceneName: "\u30EA\u30B9\u30CB\u30F3\u30B0\u30EC\u30D9\u30EB\u9078\u629E"
+    enableMenu: 1
+    isHomeScene: 0
+    isQuizScene: 0
+  - unityScene:
+      m_SceneName: Listening
+    displaySceneName: "\u30EA\u30B9\u30CB\u30F3\u30B0"
+    enableMenu: 1
+    isHomeScene: 0
+    isQuizScene: 0
+  - unityScene:
+      m_SceneName: LevelSelect
+    displaySceneName: "\u30EC\u30D9\u30EB\u9078\u629E"
+    enableMenu: 1
+    isHomeScene: 0
+    isQuizScene: 0
+  - unityScene:
+      m_SceneName: CategorySelect
+    displaySceneName: "\u30AB\u30C6\u30B4\u30EA\u30FC\u9078\u629E"
+    enableMenu: 1
+    isHomeScene: 0
+    isQuizScene: 0
+  categoryTitleCSV: {fileID: 4900000, guid: 886d70cca57eb49ee8bc18c95d3e11c4, type: 3}

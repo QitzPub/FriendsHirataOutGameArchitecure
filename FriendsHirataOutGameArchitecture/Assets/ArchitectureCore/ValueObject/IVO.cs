@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public interface IVO 
+namespace Qitz.ArchitectureCore
 {
+    public interface IVO
+    {
+    }
 }

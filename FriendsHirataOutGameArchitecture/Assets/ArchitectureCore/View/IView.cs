@@ -1,19 +1,25 @@
 ﻿
 using UnityEngine;
 
-public interface IView
+namespace Qitz.ArchitectureCore
 {
-}
+    public interface IView
+    {
+    }
 
-public static class ViewExtensions{
+    public static class ViewExtensions
+    {
 
-    static IController controller;
+        static IController controller;
 
-    public static T GetController<T>(this IView view)where T :Component,IController{
-        if(controller == null){
-            controller = Object.FindObjectOfType<T>();
+        public static T GetController<T>(this IView view) where T : Component, IController
+        {
+            if (controller == null)
+            {
+                controller = Object.FindObjectOfType<T>();
+            }
+            return controller as T;
         }
-        return controller as T;
     }
 }
 

@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseVO : IVO
+namespace Qitz.ArchitectureCore
 {
+    public abstract class AVO : IVO
+    {
 
+    }
 }

@@ -1,4 +1,8 @@
 ﻿
-public interface IController{
+namespace Qitz.ArchitectureCore
+{
+    public interface IController
+    {
+    }
 }
 

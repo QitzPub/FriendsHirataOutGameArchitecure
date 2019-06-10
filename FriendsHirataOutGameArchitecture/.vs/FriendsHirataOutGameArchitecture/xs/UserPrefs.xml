@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{A4FEA3D5-FEB1-814C-8F76-5D4CA55B161B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MyProject/Scripts/GameSystemInitializer/GameSystemInitializer.cs">
+    <Files>
+      <File FileName="Assets/MyProject/Scripts/Controller/OutGameController.cs" Line="5" Column="24" />
+      <File FileName="Assets/MyProject/Scripts/DataStore/OutGameDataStore.cs" Line="3" Column="29" />
+      <File FileName="Assets/MyProject/Scripts/Enums/OutGameEnums.cs" Line="2" Column="1" />
+      <File FileName="Assets/MyProject/Scripts/GameSystemInitializer/GameSystemInitializer.cs" Line="4" Column="1" />
+      <File FileName="Assets/MyProject/Scripts/Repository/OutGameRepository.cs" Line="3" Column="1" />
+      <File FileName="Assets/ArchitectureCore/Transmitter/PrefabFolder.cs" Line="6" Column="2" />
+      <File FileName="Assets/MyProject/Scripts/View/OutGameView.cs" Line="4" Column="29" />
+      <File FileName="Assets/ArchitectureCore/Controller/AController.cs" Line="10" Column="49" />
+      <File FileName="Assets/ArchitectureCore/Controller/IController.cs" Line="7" Column="2" />
+      <File FileName="Assets/ArchitectureCore/DataStore/ADataStore.cs" Line="10" Column="2" />
+      <File FileName="Assets/ArchitectureCore/Repository/ARepository.cs" Line="14" Column="2" />
+      <File FileName="Assets/ArchitectureCore/Transmitter/BaseFactory.cs" Line="7" Column="2" />
+      <File FileName="Assets/ArchitectureCore/Transmitter/BaseTransmitter.cs" Line="7" Column="2" />
+      <File FileName="Assets/ArchitectureCore/Transmitter/ITransmitter.cs" Line="7" Column="2" />
+      <File FileName="Assets/ArchitectureCore/ValueObject/BaseVO.cs" Line="11" Column="2" />
+      <File FileName="Assets/ArchitectureCore/ValueObject/IVO.cs" Line="9" Column="2" />
+      <File FileName="Assets/ArchitectureCore/View/AView.cs" Line="9" Column="2" />
+      <File FileName="Assets/ArchitectureCore/View/IView.cs" Line="14" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

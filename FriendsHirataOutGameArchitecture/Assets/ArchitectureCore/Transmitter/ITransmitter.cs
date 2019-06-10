@@ -1,4 +1,7 @@
 ﻿
-
-public interface ITransmitter  {
+namespace Qitz.ArchitectureCore
+{
+    public interface ITransmitter
+    {
+    }
 }
